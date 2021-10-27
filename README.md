@@ -1,3 +1,11 @@
+# Frontend Multi Timer App
+1. I spent 3 hours in total on my assignment. The first 2 hours were used to plan the architecture of my code and timebox a few different approaches before implementing the simplest solution. The last hour was used to implement Material UI for clientside functionality, design and flow. 
+2. I like that my implementation is clean and straightfoward, with a root App and a single Timer component which I use to hold both the timer code and it's methods. The root app passes user input through props into the Timer component which returns a functioning and formatted Timer. 
+3. If I were to do it again, I would have implemented more functionality to include play/pause Timer, drag and drop as well as automatic reordering of timers based on time left. I would have focused more on User Experience and implemented blinking/tremor animations and a ringing alarm audio when Time was up. I'd also have liked to make the page more palatable/ themed either with randomized colors or a cohesive backdrop.
+4. I made my decisions based on the flow a typical user would go through when setting up an alarm. The Timer is formatted to the standardized 00:00:00 for digital time. Buttons were based on intuitive approach, with delete and add alarm buttons on the right side. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
